@@ -23,7 +23,7 @@ app.use(
 app.use(express.json());
 app.use(cookieParser());
 
-app.get("/", (req, res) => res.json({ status: "QueryMind backend running" }));
+app.get("/", (req, res) => res.json({ status: "QueryCraft backend running" }));
 
 app.use("/api/auth", authRoutes);
 app.use("/api/databases", databaseRoutes);

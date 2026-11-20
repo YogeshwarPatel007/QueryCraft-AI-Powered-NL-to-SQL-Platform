@@ -20,7 +20,7 @@ function downloadCSV(data) {
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
   a.href = url;
-  a.download = `querymind-results-${Date.now()}.csv`;
+  a.download = `querycraft-results-${Date.now()}.csv`;
   a.click();
   URL.revokeObjectURL(url);
 }

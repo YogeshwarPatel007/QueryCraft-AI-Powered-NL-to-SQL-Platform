@@ -99,7 +99,7 @@ export default function Sidebar() {
           </div>
           {!collapsed && (
             <span className="font-display font-bold text-[15px] text-text truncate">
-              QueryMind
+              QueryCraft
             </span>
           )}
         </Link>

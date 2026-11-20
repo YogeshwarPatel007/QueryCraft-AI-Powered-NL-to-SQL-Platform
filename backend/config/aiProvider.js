@@ -27,6 +27,6 @@ if (PROVIDER === "gemini") {
   throw new Error(`Unknown AI_PROVIDER "${PROVIDER}". Use "gemini", "grok", or "anthropic".`);
 }
 
-console.log(`[QueryMind] AI provider active: ${PROVIDER}`);
+console.log(`[QueryCraft] AI provider active: ${PROVIDER}`);
 
 module.exports = aiClient;

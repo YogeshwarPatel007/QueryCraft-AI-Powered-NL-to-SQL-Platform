@@ -157,7 +157,7 @@ export default function Home() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z" />
               </svg>
             </div>
-            <span className="font-display font-bold text-[15px] tracking-tight text-text">QueryMind</span>
+            <span className="font-display font-bold text-[15px] tracking-tight text-text">QueryCraft</span>
           </Link>
           <div className="flex items-center gap-4">
             <Link to="/login" className="text-sm text-muted hover:text-text transition-colors font-medium">
@@ -193,7 +193,7 @@ export default function Home() {
             </h1>
 
             <p className="text-muted text-lg mb-8 max-w-lg leading-relaxed">
-              QueryMind turns plain English into SQL, runs it safely against your
+              QueryCraft turns plain English into SQL, runs it safely against your
               database, and returns tables, charts, and AI summaries — no SQL
               knowledge required.
             </p>
@@ -356,7 +356,7 @@ export default function Home() {
               </svg>
             </div>
             <span className="text-sm text-muted">
-              © {new Date().getFullYear()} QueryMind. Built for people who'd rather ask than write SQL.
+              © {new Date().getFullYear()} QueryCraft. Built for people who'd rather ask than write SQL.
             </span>
           </div>
           <div className="flex items-center gap-6 text-sm text-muted">
